@@ -1,0 +1,16 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/*Here we are referencing parts of the html code using selectors and making rules for them.
+Something like "body" doesn't need a hashtag, an id like "content" does need a hashtag.
+By placing commas between multiple selectors we can apply the rule to all of them at once.*/
+
+nav a,
+#hero-msg h1, #hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
